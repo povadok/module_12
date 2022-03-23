@@ -108,7 +108,7 @@ main {
 }
 
 .fruit_grey {
-  background: #555555;
+  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);;
 }
 
 .fruit_red {
