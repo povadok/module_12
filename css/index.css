@@ -138,6 +138,15 @@ main {
 
 .fruit_lightbrown {
   background: #cd853f;
+
+}
+
+.fruit_lightBlue {
+  background:#11c1fc;
+}
+
+.fruit_darkBlue {
+  background: #0300bd;
 }
 
 .fruit__info {
