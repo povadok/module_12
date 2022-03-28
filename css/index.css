@@ -50,8 +50,8 @@ input {
 main {
   display: flex;
   flex-direction: row;
-  height: 100vh;
-  max-height: 100vh;
+  /* height: 100vh;
+  max-height: 100vh; */
 }
 
 .wrapper__title {
@@ -65,7 +65,7 @@ main {
 .panel__wrapper {
   flex-basis: 25%;
   max-height: inherit;
-  overflow: hidden;
+  /* overflow: hidden; */
   background: aliceblue;
   display: flex;
   flex-direction: column;
@@ -157,4 +157,35 @@ main {
   background: #fff;
   height: 100%;
   padding: 10px;
+}
+
+@media (max-width: 700px) {
+  main {
+    flex-direction: column;
+  }
+  .panel__devtools {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .shuffle__btn {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .filter__input {
+    flex:1 1 auto;
+  }
+
+  .filter__btn {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .sort__btns {
+    flex:1 1 auto;
+  }
+
+  .added__input {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
